@@ -21,6 +21,8 @@ public class MethoadOverloading {
     {
         System.out.println(x+y+z);
     }
+
+
     void sum(int x,double y)
     {
         System.out.println(x+y);

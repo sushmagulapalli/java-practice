@@ -6,24 +6,24 @@ public class LengthOfAString {
 //        {
 //            System.out.println(s.length());
 //        }
-  //concatination
-//  String s1="Follow your";
-//  String s2=" Passion";
-//        System.out.println(s1+s2);// First Method
-//        System.out.println(s1.concat(s2)); //Second Method
+  /*//concatination
+   String s1="Follow your";
+    String s2=" Passion";
+        System.out.println(s1+s2);// First Method
+        System.out.println(s1.concat(s2)); //Second Method*/
 
         //equals Method
-//        String s3="DADDY";
-//        String s4="daddy";// Result will be in boolean Expressions
-//        System.out.println(s3.equals(s4)); //By Using equals method we cant concatinate both strings which are in case sensitive
-//
+      String s3="DADDY";
+        String s4="daddy";// Result will be in boolean Expressions
+        System.out.println(s3.equals(s4)); //By Using equals method we cant concatinate both strings which are in case sensitive
+
 //        //equalsignore case()
 //        String s5="MUMMY";
 //        String s6="mummy";
 //        System.out.println(s5.equalsIgnoreCase(s6));
 
 
-        //Contains Method
+       /* //Contains Method
         String s5="MUMMY";
         String s6="mummy";
         System.out.println(s5.contains("UMM"));//If we give exact characters it is execute and result is true and if we give another characters result is false
@@ -37,7 +37,7 @@ public class LengthOfAString {
         //Replace Method
         String s8="Sushma";
         String s9="Rakesh";
-        System.out.println(s8.replace("Sushma","Pandu"));
+        System.out.println(s8.replace("Sushma","Pandu")); */
 
 
     }

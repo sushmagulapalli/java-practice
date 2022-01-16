@@ -15,5 +15,6 @@ public class ArrayUsingObject {
         {
             System.out.println(i);
         }
+
     }
 }

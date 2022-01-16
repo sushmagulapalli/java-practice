@@ -34,27 +34,27 @@ public class TwoDimensionalArrays {
 //        a[4][2] = 380;
 //        a[4][3] = 390;
 //        a[4][4] = 400;
-        //The below one is using for loop
-        //for (int i = 0; i < 5; i++) {
-          //  for (int j = 0; j < 5; j++) {
-            //    System.out.print(a[i][j]+ "   ");
-            //}
-           // {
-             //   System.out.println();
-            //}
-        //}
-// for each loop
-        for (int i[]:a)
-        {
-           for (int j:i)
-           {
-               System.out.print(j+"  ");
-
-           }
+     //   The below one is using for loop
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print(a[i][j]+ "   ");
+            }
             {
                 System.out.println();
             }
         }
+// for each loop
+//        for (int i[]:a)
+//        {
+//           for (int j:i)
+//           {
+//               System.out.print(j+"  ");
+//
+//           }
+//            {
+//                System.out.println();
+//            }
+//        }
 
     }
 }

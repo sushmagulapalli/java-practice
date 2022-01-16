@@ -2,7 +2,7 @@ package org.example;
 
 public class Nestedifelse {
     public static void main(String[] args) {
-        int day = 4;
+        int day = 6;
         if (day == 1) {
             System.out.println("Sunday");
         } else if (day == 2) {
