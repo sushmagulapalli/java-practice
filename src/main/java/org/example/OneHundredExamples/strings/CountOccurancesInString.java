@@ -1,4 +1,4 @@
-package org.example.CodingExamples;
+package org.example.OneHundredExamples.strings;
 
 public class CountOccurancesInString {
     public static void main(String[] args) {

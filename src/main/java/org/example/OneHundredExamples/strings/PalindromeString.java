@@ -1,4 +1,4 @@
-package org.example.CodingExamples;
+package org.example.OneHundredExamples.strings;
 
 import java.util.Scanner;
 

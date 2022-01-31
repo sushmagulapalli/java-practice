@@ -10,6 +10,7 @@ public class MethoadOverloading {
         b=20;
         System.out.println(a+b);
     }
+
     void sum(int x, int y)
     {
        int a=x;
@@ -17,7 +18,7 @@ public class MethoadOverloading {
         System.out.println(a+b);
     }
 
-    void sum(int x, int y,int z)
+   /* void sum(int x, int y,int z)
     {
         System.out.println(x+y+z);
     }
@@ -26,14 +27,14 @@ public class MethoadOverloading {
     void sum(int x,double y)
     {
         System.out.println(x+y);
-    }
+    }*/
 
     public static void main(String[] args) {
         MethoadOverloading mo=new MethoadOverloading();
         mo.sum();
         mo.sum(100,200);
-        mo.sum(150,250,350);
-        mo.sum(120,13.456);
+       // mo.sum(150,250,350);
+        //mo.sum(120,13.456);
     }
 
 }

@@ -14,9 +14,14 @@ public class EvenAndOddInArray {
         //Using Enhanced ForLoop
         for (int value:a)
         {
-            if (value%2==0)
-                System.out.println(value);
+            if (value%2==0){
+                System.out.println("even number"  +value);
+                }else
+            {
+                System.out.println("oddnumber" +value);
+            }
         }
+
 
        /* System.out.println("Print all odd numbers");
         for (int i = 0; i <a.length ; i++)
